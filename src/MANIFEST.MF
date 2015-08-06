@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: .
+  jars/Jama-1.0.3.jar
+  jars/jai-imageio-core-1.3.0.jar
+  jars/jopt-simple-4.9.jar
+Main-Class: laguerre_approximation_3d.LaguerreApproximation3D
