@@ -40,6 +40,7 @@ The first value is the label, the remaining four values are x-, y-, z-coordinate
 and the radius.
 
 Note:
+
 1. The executable JAR file "LaguerreApproximation3D.jar" is contained
    only in the binary release. If you want to compile the source code yourself:
    the class "laguerre_approximation_3d.LaguerreApproximation3D" contains the
@@ -65,9 +66,7 @@ Source and Javadoc
 ------------------
 
 The source code is supplied in the folder "src" and it contains Javadoc comments.
-The main class is "laguerre_approximation_3d.LaguerreApproximation3D". This
-class is used by default in the executable JAR file (that is supplied in the
-binary release).
+The main class is "laguerre_approximation_3d.LaguerreApproximation3D".
 
 
 Copyright and licenses
