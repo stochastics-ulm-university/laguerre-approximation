@@ -9,7 +9,7 @@ technique.
 
 > [1] A. Spettl, T. Brereton, Q. Duan, T. Werz, C.E. Krill III, D.P. Kroese
 > and V. Schmidt, Fitting Laguerre tessellation approximations to tomographic
-> image data. Preprint.
+> image data. [arXiv:1508.01341 [cond-mat.mtrl-sci]](http://arxiv.org/abs/1508.01341)
 
 If you use this software package in a work that leads to a scientific paper,
 we ask you to mention it explicitly and cite reference [1].
@@ -88,5 +88,5 @@ Changelog
 More info
 ---------
 
-* Link to preprint will be inserted here.
+* http://arxiv.org/abs/1508.01341
 * https://github.com/stochastics-ulm-university/laguerre-approximation
