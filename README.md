@@ -1,7 +1,7 @@
-Laguerre tessellation approximation of 3D images
-================================================
+Laguerre approximation of 3D images
+===================================
 
-This software packages provides an implementation of the algorithm proposed
+This software package provides an implementation of the algorithm proposed
 in [1]. It aims to detect a Laguerre tessellation that approximates a given
 grain structure as well as possible. An interface-based discrepancy measure
 is minimized using the cross-entropy method, a robust stochastic optimization
@@ -34,17 +34,16 @@ layer of background voxels (1 voxel thickness) between adjacent grains. A
 multi-page image file is required as input, i.e., a single file contains
 several 2D images which correspond to the slices (in z-direction) of the
 3D image. For example, [ImageJ](http://imagej.nih.gov/ij/) / [Fiji](http://fiji.sc/)
-can generate such 3D image files. The generators text file that is created
-contains the detected generators. One line corresponds to one generator.
-The first value is the label, the remaining four values are x-, y-, z-coordinates
-and the radius.
+can generate such 3D image files. The output text file contains the detected
+generators. One line corresponds to one generator. The first value is the
+label, the remaining four values are x-, y-, z-coordinates and the radius.
 
 Note:
 
 1. The executable JAR file "LaguerreApproximation3D.jar" is contained
    only in the binary release. If you want to compile the source code yourself:
-   the class "laguerre_approximation_3d.LaguerreApproximation3D" contains the
-   main method.
+   the class "LaguerreApproximation3D" in the package "laguerre_approximation_3d"
+   contains the main method.
 2. The experimental data set requires about 4500 MB Java heap (due to the
    cylindrical shape of the sample).
 
