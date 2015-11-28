@@ -12,7 +12,10 @@ technique.
 > image data. [arXiv:1508.01341 [cond-mat.mtrl-sci]](http://arxiv.org/abs/1508.01341)
 
 If you use this software package in a work that leads to a scientific paper,
-we ask you to mention it explicitly and cite reference [1].
+we ask you to mention it explicitly and cite reference [1]. (Update: The
+paper has been accepted for publication in Philosophical Magazine. The
+publication details will be updated in this readme file when the paper is
+published.)
 
 
 Usage
