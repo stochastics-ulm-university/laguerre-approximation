@@ -72,7 +72,7 @@ The main class is "laguerre_approximation_3d.LaguerreApproximation3D".
 Copyright and licenses
 ----------------------
 
-* Copyright &copy; 2015 Institute of Stochastics, Ulm University
+* Copyright &copy; 2015-2016 Institute of Stochastics, Ulm University
 
 This software is licensed under the GNU General Public License v2.0 (published
 in June 1991), or (at your option) any later version. The full text of GPL 2 is
@@ -82,6 +82,7 @@ available at https://www.gnu.org/licenses/gpl-2.0 and in the file "LICENSE".
 Changelog
 ---------
 
+* 2016-02-02 - Updated preprint, added publication details, no code change.
 * 2015-08-06 - Initial release.
 
 
