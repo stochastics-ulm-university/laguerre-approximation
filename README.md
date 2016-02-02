@@ -9,13 +9,11 @@ technique.
 
 > [1] A. Spettl, T. Brereton, Q. Duan, T. Werz, C.E. Krill III, D.P. Kroese
 > and V. Schmidt, Fitting Laguerre tessellation approximations to tomographic
-> image data. [arXiv:1508.01341 [cond-mat.mtrl-sci]](http://arxiv.org/abs/1508.01341)
+> image data. Philosophical Magazine 96 (2016), 166-189.
 
 If you use this software package in a work that leads to a scientific paper,
-we ask you to mention it explicitly and cite reference [1]. (Update: The
-paper has been accepted for publication in Philosophical Magazine. The
-publication details will be updated in this readme file when the paper is
-published.)
+we ask you to mention it explicitly and cite reference [1]. A preprint of the
+paper is available at [arXiv:1508.01341 [cond-mat.mtrl-sci]](http://arxiv.org/abs/1508.01341).
 
 
 Usage
