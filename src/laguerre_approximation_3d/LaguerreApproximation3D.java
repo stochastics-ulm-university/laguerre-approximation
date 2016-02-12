@@ -25,12 +25,15 @@ import util.math.OrthogonalRegression3D;
 /**
  * Main class for detecting the optimal generators of a Laguerre tessellation
  * that should approximate a given labeled image.
- * The method is based on the paper by A. Spettl et al. (2015), where an
+ * The method is based on the paper by A. Spettl et al. (2016), where an
  * interface-based cost function is introduced, namely the total approximate
  * discrepancy in formula (5). The corresponding minimization problem
  * (formula (6)) is solved with the cross-entropy method.
  * 
  * @author Aaron Spettl, Institute of Stochastics, Ulm University
+ * @see "A. Spettl, T. Brereton, Q. Duan, T. Werz, C.E. Krill III, D.P. Kroese
+ *       and V. Schmidt, Fitting Laguerre tessellation approximations to tomographic
+ *       image data. Philosophical Magazine 96 (2016), 166-189."
  * @see "A. Spettl, T. Brereton, Q. Duan, T. Werz, C.E. Krill III, D.P. Kroese
  *       and V. Schmidt, Fitting Laguerre tessellation approximations to tomographic
  *       image data. arXiv:1508.01341 [cond-mat.mtrl-sci]"
@@ -42,7 +45,7 @@ public class LaguerreApproximation3D {
 	
 	/**
 	 * Main method for performing the Laguerre approximation as described in
-	 * the paper by A. Spettl et al. (2015).
+	 * the paper by A. Spettl et al. (2016).
 	 * <p>
 	 * Input and output files are specified as parameters on the command line.
 	 * As input, a labeled 3D TIF image file is expected (cf. Section 3.1 of
@@ -176,7 +179,7 @@ public class LaguerreApproximation3D {
 	}
 	
 	/**
-	 * Minimizes the interface-based distance measure given in A. Spettl et al. (2015)
+	 * Minimizes the interface-based distance measure given in A. Spettl et al. (2016)
 	 * using the CE method.
 	 * 
 	 * @param labeledImage       the labeled image where each label denotes a cell

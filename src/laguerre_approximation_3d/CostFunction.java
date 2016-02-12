@@ -15,6 +15,9 @@ import util.math.LaguerreTessellation3D;
  * @author Aaron Spettl, Institute of Stochastics, Ulm University
  * @see "A. Spettl, T. Brereton, Q. Duan, T. Werz, C.E. Krill III, D.P. Kroese
  *       and V. Schmidt, Fitting Laguerre tessellation approximations to tomographic
+ *       image data. Philosophical Magazine 96 (2016), 166-189."
+ * @see "A. Spettl, T. Brereton, Q. Duan, T. Werz, C.E. Krill III, D.P. Kroese
+ *       and V. Schmidt, Fitting Laguerre tessellation approximations to tomographic
  *       image data. arXiv:1508.01341 [cond-mat.mtrl-sci]"
  */
 public class CostFunction {
